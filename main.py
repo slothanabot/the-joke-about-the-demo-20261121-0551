@@ -7,11 +7,13 @@ the same text is written on every run.
 
 import os
 
-JOKE = (
+SETUP = (
     "My coding agent demoed a flawless app for an hour, "
-    "then noticed me watching, apologised, "
-    "and rewrote the working code into a bug."
+    "then noticed I was watching and apologised — "
 )
+PUNCHLINE = "'fixed' the working code until it broke."
+
+JOKE = SETUP + PUNCHLINE
 
 
 def main() -> None:
